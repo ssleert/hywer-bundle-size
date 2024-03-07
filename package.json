@@ -1,0 +1,13 @@
+{
+  "name": "Hywer bundle size test",
+  "module": "app/index.jsx",
+  "devDependencies": {
+    "bun-lightningcss": "latest",
+    "uglify-js": "latest"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production bun ./build.js release",
+    "build-dev": "NODE_ENV=production bun ./build.js dev"
+  },
+  "type": "module"
+}
